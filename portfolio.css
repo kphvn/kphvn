@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif; /* Fallback to Arial if sans-serif is not available */
+    margin: 0;
+    padding: 0;
+    background-color: beige; /* Set the background color to beige */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px 0; /* Adjust the padding-top as needed */
+}
+
+
+header {
+    background-color: transparent; /* Remove the background color */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Change link color to dark */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+section {
+    padding: 15px 0;
+}
+
+.about-heading {
+    font-family: sans-serif; /* Use generic sans-serif font */
+    font-size: 36px; /* Increase the font size of the heading */
+}
+
+.about-text {
+    font-size: 24px; /* Font size for the paragraph text */
+}
+
+footer {
+    background-color: transparent; /* Remove the background color */
+    color: #333; /* Change text color to dark */
+    text-align: center;
+    padding: 20px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
